@@ -1,0 +1,34 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+// Primary and Secondary Brand colors
+$primary: #2563eb;
+$secondary: #fc6f05;
+
+// State colors
+$info: #2f80ed;
+$success: #00966d;
+$warning: #e2b93b;
+$danger: #c30000;
+
+// Neutral and Gray Colors
+$gray-100: #4f4f4f;
+$gray-200: #404040;
+$gray-300: #bdbdbd;
+$gray-400: #dfdfdf;
+$gray-500: #e0e0e0;
+
+// Update Theme Colors Map
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "info": $info,
+  "success": $success,
+  "warning": $warning,
+  "danger": $danger,
+  "light": #f7f7fc,
+  "dark": #0c0c0c,
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
