@@ -7,3 +7,9 @@
 body {
   font-family: "Poppins", serif;
 }
+
+.custom-gradient {
+  background: linear-gradient(90deg, #2563eb, #36a7fc);
+  background-size: cover;
+  background-position: center;
+}
