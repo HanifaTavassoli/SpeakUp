@@ -1,6 +1,14 @@
 {
+  "name": "speakup",
+  "version": "1.0.0",
+  "scripts": {
+    "build-sass": "sass scss/custom.scss css/custom.css"
+  },
   "dependencies": {
     "bootstrap": "^5.3.7",
     "bootstrap-icons": "^1.13.1"
+  },
+  "devDependencies": {
+    "sass": "^1.89.2"
   }
 }
