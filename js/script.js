@@ -14,3 +14,11 @@ document.addEventListener("DOMContentLoaded", function () {
       setCurrentYear();
     });
 });
+
+///////////////////////////////////////////////////////////
+// Set current year
+function setCurrentYear() {
+  const yearEl = document.getElementById("year");
+  const currentYear = new Date().getFullYear();
+  yearEl.textContent = currentYear;
+}
