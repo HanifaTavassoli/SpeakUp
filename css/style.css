@@ -20,3 +20,10 @@ body {
   background-size: contain;
   background-position: center;
 }
+
+.bg-custom2 {
+  background: url("../img/about/Vector1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
