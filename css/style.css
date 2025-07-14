@@ -27,3 +27,10 @@ body {
   background-size: contain;
   background-position: center;
 }
+
+.bg-login {
+  background: url("../img/loginPage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

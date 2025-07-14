@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>SpeakUp</title>
+    <link rel="icon" href="img/logo.png" type="image/png" />
+  </head>
+  <body>
+    <header id="header"></header>
+    <section class="section-login mb-5">
+      <div class="container-fluid">
+        <div class="row d-flex p-5 w-75 mx-auto">
+          <div class="col-12 col-md-6 bg-login rounded-start">
+            <p class="mt-4 ms-3 fs-5 h-100">
+              Welcome, We are <br />
+              glad to see you<br />
+              again!
+            </p>
+          </div>
+          <div
+            class="col-12 col-md-6 p-5 bg-primary-subtle rounded-end mx-auto"
+          >
+            <h2 class="fw-bold fs-3 mt-5 mb-3">Sign Up</h2>
+            <form action="#" class="">
+              <div class="mb-3">
+                <label for="name" class="form-label mb-1">
+                  <small>Name</small>
+                </label>
+                <input
+                  type="text"
+                  class="form-control border border-secondary"
+                  id="name"
+                  placeholder="Enter your name"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label mb-1">
+                  <small>Email or username</small>
+                </label>
+                <input
+                  type="text"
+                  class="form-control text-secondary border border-secondary"
+                  id="email"
+                  placeholder="Enter your Email or username"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="password" class="form-label mb-1"
+                  ><small>password</small></label
+                >
+                <input
+                  type="password"
+                  class="form-control border border-secondary"
+                  id="password"
+                  placeholder="Enter your password"
+                />
+              </div>
+
+              <div class="d-grid col-12 mx-auto mt-4 mb-4">
+                <button
+                  type="submit"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#successModal"
+                  id="submit"
+                >
+                  Sign Up
+                </button>
+              </div>
+            </form>
+            <div class="text-center">
+              <p>
+                Already to have an acount?
+                <a href="login.html" class="text-decoration-none">Log in</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script defer type="module" src="js/script.js"></script>
+    <footer id="footer" class="bg-primary text-white pt-4"></footer>
+  </body>
+</html>
