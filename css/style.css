@@ -13,3 +13,10 @@ body {
   background-size: cover;
   background-position: center;
 }
+
+.bg-custom {
+  background: url("../img/background_shape.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
