@@ -29,3 +29,17 @@ function setCurrentYear() {
   const currentYear = new Date().getFullYear();
   yearEl.textContent = currentYear;
 }
+
+///////////////////////////////////////////////////////////
+// Color theme
+function toggleTheme() {
+  document.body.classList.toggle("dark-mode");
+  let icon = document.getElementById("theme-icon");
+  if (document.body.classList.contains("dark-mode")) {
+    icon.classList.remove("bi-moon-stars-fill");
+    icon.classList.add("bi-sun");
+  } else {
+    icon.classList.remove("bi-sun");
+    icon.classList.add("bi-moon-stars-fill");
+  }
+}
