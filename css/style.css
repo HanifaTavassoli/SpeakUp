@@ -34,3 +34,23 @@ body {
   background-size: cover;
   background-position: center;
 }
+
+/* icons style */
+.google-icon {
+  background: linear-gradient(to right, #4285f4, #ea4335, #fbbc05, #34a853);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.instagram-icon {
+  background: linear-gradient(
+    45deg,
+    #feda75,
+    #fa7e1e,
+    #d62976,
+    #962fbf,
+    #4f5bd5
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
