@@ -4,6 +4,13 @@ document.addEventListener("DOMContentLoaded", function () {
     .then((response) => response.text())
     .then((data) => {
       document.getElementById("header").innerHTML = data;
+
+      // Toggle theme and handle signup form
+
+      document
+        .getElementById("toggleThemeBtn")
+        .addEventListener("click", toggleTheme);
+      signupFormHandler();
     });
 
   // Load footer
