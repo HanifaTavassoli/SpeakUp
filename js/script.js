@@ -90,3 +90,32 @@ function signupFormHandler() {
     }
   });
 }
+
+///////////////////////////////////////////////////////////
+// Login Form Handler
+
+function loginFormHandler() {
+  const usernameField = document.getElementById("email1");
+  const passwordField = document.getElementById("password1");
+
+  const username = usernameField.value.trim();
+  const password = passwordField.value.trim();
+
+  console.log("username:", username);
+  console.log("password:", password);
+  // Basic validation
+  // if (username === "" || password === "") {
+  //   alert("Please fill in both fields!");
+  //   return;
+  // }
+
+  // Store username in sessionStorage (for demonstration purposes)
+  if (username !== "" && password !== "") {
+    sessionStorage.setItem("username", username);
+    setTimeout(() => {
+      window.location.href = "index.html";
+    }, 500);
+    console.log("you login truely");
+  }
+  // Redirect or show username in navbar
+}
