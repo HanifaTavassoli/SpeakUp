@@ -7,6 +7,45 @@
 body {
   font-family: "Poppins", serif;
 }
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #343a40;
+  color: white;
+}
+
+body.dark-mode .card,
+body.dark-mode #price .list-group-item,
+body.dark-mode #feature #card-left,
+body.dark-mode #contact-form,
+body.dark-mode #contact-box,
+body.dark-mode #test {
+  background-color: #2c3034 !important;
+  color: #f8f9fa !important;
+}
+body.dark-mode #navbarNav li a,
+body.dark-mode #navbarNav .bi-sun {
+  background-color: #1e2125 !important;
+  color: #e9ecef !important;
+}
+/* body.dark-mode {
+  background-color: #1a1d20 !important;
+  color: #f8f9fa !important;
+} */
+body.dark-mode #feature .card,
+body.dark-mode .section-languages .card {
+  background-color: transparent !important;
+  color: white !important;
+}
+
+body.dark-mode *.border {
+  border-color: #454d55 !important;
+  /* background-color: #2c3034 !important; */
+}
+
+body.dark-mode {
+  background-color: #212529 !important;
+  color: #f8f9fa !important;
+}
 
 .custom-gradient {
   background: linear-gradient(90deg, #2563eb, #36a7fc);
