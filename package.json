@@ -2,6 +2,7 @@
   "name": "speakup",
   "version": "1.0.0",
   "scripts": {
+    "build": "npm run build-sass",
     "build-sass": "sass scss/custom.scss css/custom.css"
   },
   "dependencies": {
