@@ -1,6 +1,6 @@
-@import "../node_modules/bootstrap/scss/functions";
-@import "../node_modules/bootstrap/scss/variables";
-@import "../node_modules/bootstrap/scss/mixins";
+@use "../node_modules/bootstrap/scss/functions";
+@use "../node_modules/bootstrap/scss/variables";
+@use "../node_modules/bootstrap/scss/mixins";
 
 // Primary and Secondary Brand colors
 $primary: #2563eb;
@@ -31,4 +31,4 @@ $theme-colors: (
   "dark": #0c0c0c,
 );
 
-@import "../node_modules/bootstrap/scss/bootstrap";
+@use "../node_modules/bootstrap/scss/bootstrap";
